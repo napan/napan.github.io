@@ -69,16 +69,27 @@
 	margin-bottom: 29px;
 
 }
-.container .c-top .c-t-left ul  li{
+.container .c-top .c-t-left  .myc1{
 	margin-left: 22px;
-	font-size: 14px;
-	margin-top: 10px;
+	font-size: 13px;
+	line-height: 25px;
+	color: #515151;
+	float: left;
 }
+.container .c-top .c-t-left .myc2{
+	font-size: 13px;
+	line-height: 25px;
+	color: #515151;
+	float: right;
+	list-style: none;
+	margin-right: 29px
+}
+
 .container .c-top .c-t-center{
 	width: 240px;
 	height: 240px;
 	float: left;
-	background: f1f1f1;
+	background: #f1f1f1;
 }
 .container .c-top .c-t-center h3{
 	margin-left: 25px;
@@ -89,7 +100,6 @@
 .container .c-top .c-t-center .p1{
 	font-size: 16px;
 	margin-left: 25px;
-	margin-bottom: 10px;
 }
 .container .c-top .c-t-center .p2{
 	font-size: 14px;
@@ -113,18 +123,20 @@
 	margin-left: 25px;
 	margin-right: 55px;
     margin-top: 27px;
+    color: #515151;
 }
 .container .c-top .c-t-right img{
-	height: 100px;
+	height: 80px;
 }
 .container .c-bottom {
 	height: 305px;
-	border: 0px solid white;
+	margin-top: 29px;	
 }
 .container .c-bottom  h3{
 	margin-left: 22px;
-	margin-top: 29px;
+
 	font-size: 18px;
+	overflow: hidden;
 }
 .container .c-bottom .c-b-piclist{
 	margin-top: 18px;
@@ -227,7 +239,7 @@
 }
 .footer .f-center h3{
 	margin-top: 31px;
-	margin-left: 13px;
+	margin-left: 12px;
 	font-size: 18px;
 	color: #616161;
 }
@@ -253,7 +265,7 @@
 }
 .footer .f-right h3{
 	margin-top: 31px;
-	margin-left: 62px;
+	margin-left: 12px;
 	font-size: 18px;
 	color: #616161;
 }
